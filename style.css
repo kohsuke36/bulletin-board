@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.main {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-right: 1px solid #000;
+}
+
+.right-section {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.comment {
+    margin-left: 35px;
+    margin-bottom:10px;
+    margin-top: 0px;
+    clear: both;
+}
+
+.deleteButton {
+    text-align: right;
+    padding: 0;
+    margin-top: -30px;
+}
+
+#comment {
+    resize: none;
+    width: 300px;
+    height: 100px;
+}
+
+.postName {
+    color: blue;
+    display: inline-block; 
+    _display: inline;
+}
+
+.right-form{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
