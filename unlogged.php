@@ -59,7 +59,7 @@
             $user=$_POST["loginUser"];
             $sql = 'SELECT * FROM user_info WHERE user=:user';
             $stmt = $pdo->prepare($sql);
-            $stmt->bindParam(':user', $user, PDO::PARAM_INT);
+            $stmt->bindParam(':user', $user, PDO::PARAM_STR);
             $stmt->execute();
             $row=$stmt->fetch();
             if($row && $loginPass == $row['userpass']){
